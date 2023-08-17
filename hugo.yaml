@@ -1,5 +1,5 @@
 baseURL: ''
-title: TailBliss
+title: TechForce
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
@@ -46,11 +46,11 @@ markup:
       xhtml: false
 
 params:
-  author: Nusser Studios
+  author: TechForce
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
-  moto: "Super Fast, and Flexible"
-  description: "A Hugo theme built with love, using TailwindCSS 3, Alpine.JS, and Hugo Pipes. Images are optimized for use with Hugo Pipes for WebP format."
+  moto: "Product Development Force"
+  description: "We're a full service software and hardware development group. Web, mobile, embedded and everything in between. We are a force to be reckoned with."
   disable_theme_toggle: false
   disable_stay_uptodate: false
 
@@ -75,7 +75,7 @@ params:
         url: "#"
     logos:
       - identifier: a
-        image: "images/global/sample-logo.svg"
+        image: "images/global/tforce-logo.svg"
         alt: "a"
       - identifier: b
       - identifier: c
