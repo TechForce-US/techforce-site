@@ -10,6 +10,8 @@ paginate: 9
 darkmode_js:
   - assets/js/darkmode.js
 enableInlineShortcodes: true
+staticDir:
+  - static
 
 markup:
   goldmark:
@@ -96,7 +98,33 @@ params:
     label: "Email address"
     placeholder: "Enter your email"
     button: "Notify me"
-
+  p6:
+    heading: "Technological Capabilites"
+    content:
+      - text: "Front to Back: The Full-Stack"
+    action: "#technologies"
+    logos:
+      - identifier: python
+        image: "/images/python.svg"
+        alt: "Python"
+      - identifier: nodejs
+        image: "/images/nodejs.svg"
+        alt: "Node.js"
+      - identifier: c
+        image: "/images/c.svg"
+        alt: "c"
+      - identifier: espressif
+        image: "/images/espressif.svg"
+        alt: "ESP-IDF"
+      - identifier: flutter
+        image: "/images/flutter.svg"
+        alt: "Flutter"
+      - identifier: php
+        image: "/images/php.svg"
+        alt: "PHP"
+      - identifier: drupal
+        image: "/images/drupal.svg"
+        alt: "...Yes, Drupal"
   social_media:
     github:
       enabled: true

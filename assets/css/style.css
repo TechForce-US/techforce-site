@@ -2302,6 +2302,10 @@ video {
   border-width: 0;
 }
 
+.visible {
+  visibility: visible;
+}
+
 .absolute {
   position: absolute;
 }
@@ -2630,6 +2634,10 @@ video {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -2664,6 +2672,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-80 {
+  gap: 20rem;
 }
 
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
@@ -3261,6 +3273,10 @@ EmojiSymbols;
 
 .prose :where(h1):not(:where([class~="not-prose"] *)) {
   color: white !important;
+}
+
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 /* Custom CSS end */
@@ -4300,6 +4316,10 @@ EmojiSymbols;
     margin-bottom: 1rem;
   }
 
+  .lg\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
   .lg\:grid {
     display: grid;
   }
@@ -4322,6 +4342,10 @@ EmojiSymbols;
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .lg\:items-start {

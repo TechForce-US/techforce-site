@@ -25,4 +25,7 @@ EmojiSymbols;
     color: white !important;
 }
 
+.grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
 /* Custom CSS end */
