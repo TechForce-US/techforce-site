@@ -101,7 +101,7 @@ params:
   p6:
     heading: "Technological Capabilites"
     content:
-      - text: "Front to Back: The Full-Stack"
+      - text: "We specialize in the following technologies and more."
     action: "#technologies"
     logos:
       - identifier: python
