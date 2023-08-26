@@ -2524,6 +2524,10 @@ video {
   height: 100vh;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
 .w-0 {
   width: 0px;
 }
@@ -2554,6 +2558,10 @@ video {
 
 .w-16 {
   width: 4rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .min-w-0 {

@@ -94,7 +94,7 @@ params:
     heading: "Stay Up to Date"
     content:
       - text: "Stay in the Know: Elevate Your Inbox with Our Insights"
-    action: "#"
+    action: "https://formsubmit.co/jmstewart1127@gmail.com"
     label: "Email address"
     placeholder: "Enter your email"
     button: "Notify me"
@@ -142,14 +142,14 @@ params:
 
 menu:
   main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
     - identifier: about
       name: About
       url: /about/
       weight: 20
-    - identifier: categories
-      pre: dropdown
-      name: Categories
-      weight: 30
     # - identifier: dropdown
     #   pre: complexdropdown
     #   name: Dropdown
@@ -183,18 +183,14 @@ menu:
   #     url: "#"
   #     weight: 30
   footer:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
     - identifier: about
       name: About
       url: /about/
       weight: 10
-    - identifier: blog
-      name: Blog
-      url: /categories/blog/
-      weight: 20
-    - identifier: news
-      name: News
-      url: /categories/news/
-      weight: 30
     - identifier: contact
       name: Contact
       url: /contact/

@@ -1,0 +1,37 @@
+<script>
+    // For newsletter signup.
+    // TODO: use this script for contact.md.
+    const form = document.querySelector('#contact');
+    form.addEventListener('submit', async function (event) {
+        event.preventDefault();
+        const submitButton = document.querySelector('button[type="submit"]'); 
+        submitButton.disabled = true;
+
+        document.querySelector('#form-error').classList.add('hidden');
+        document.querySelector('#spinner').classList.remove('hidden');
+
+        const formInputs = this.elements;
+        if (formInputs['first_name'].value.length) {
+            return;
+        }
+
+        const formData = new FormData();
+        formData.append('email', formInputs['email'].value);
+
+        const url = 'https://formsubmit.co/jmstewart1127@gmail.com'; 
+        const response = await fetch(url, {
+            method: 'POST',
+            body: formData
+        });
+
+        submitButton.disabled = false;
+
+        if (!response.ok) {
+            document.querySelector('#form-error').classList.remove('hidden');
+            return;
+        }
+
+        document.querySelector('#spinner').classList.add('hidden');
+        document.querySelector('#form-submitted').classList.remove('hidden');
+    });
+</script>
