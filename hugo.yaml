@@ -1,6 +1,6 @@
 baseURL: ''
 title: Tech Force LLC
-languageCode: en-us
+locale: en-us
 DefaultContentLanguage: en
 enableEmoji: true
 enableGitInfo: true
