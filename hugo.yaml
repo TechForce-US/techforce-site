@@ -7,7 +7,7 @@ enableGitInfo: true
 enableRobotsTXT: true
 canonifyURLs: true
 pagination:
-  pagerSize: 9
+  pagerSize: 10
 darkmode_js:
   - assets/js/darkmode.js
 enableInlineShortcodes: true
