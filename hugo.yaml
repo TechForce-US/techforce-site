@@ -1,11 +1,10 @@
-baseURL: ''
+baseURL: 'https://tforce.tech'
 title: Tech Force LLC
 locale: en-us
 DefaultContentLanguage: en
 enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
-canonifyURLs: true
 pagination:
   pagerSize: 10
 darkmode_js:
