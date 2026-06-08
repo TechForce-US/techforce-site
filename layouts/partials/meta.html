@@ -1,6 +1,4 @@
-<title itemprop="name">{{if .IsHome}} {{ $.Site.Params.description }} | {{ .Title }}
-    {{else}} {{ .Title }} | {{ .Site.Title }} {{end}}
-</title>
+<title itemprop="name">{{if .IsHome}}{{ .Title }} | {{ $.Site.Params.moto }}{{else}}{{ .Title }} | {{ .Site.Title }}{{end}}</title>
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
 <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
 <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />

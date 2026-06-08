@@ -1,23 +1,64 @@
 ---
-title: "About"
-date: 2021-12-18T11:10:36+08:00
+title: "About Tech Force LLC"
+date: 2024-01-01
 draft: false
 language: en
-description: About Us
+description: "Tech Force LLC is a Kansas-based technology services and products company founded by Jacob Stewart, a senior software engineer with 10 years of experience building and leading software teams."
 ---
-Welcome to TechForce, where software craftsmanship meets innovation. We are a team of dedicated and experienced developers who are passionate about creating exceptional software solutions. With a commitment to quality, a strong belief in agile methodologies, and a track record of successful project deliveries, we are your partners in turning ideas into reality.
 
-## Our Approach: Quality First
-In the world of software development, there is an undeniable truth – there's a right way to build software, and it starts with emphasizing process and quality. At TechForce, quality is not just a checkbox; it's a guiding principle that permeates every line of code we write, every design choice we make, and every solution we offer. We understand that software is a manifestation of innovation, and it's our responsibility to ensure that innovation is backed by robustness and reliability.
+## Who We Are
 
-## Embracing Agile, Delivering Results
-Agile methodologies are more than just buzzwords for us – they are the foundation of our approach to software development. We value the flexibility, collaboration, and adaptability that agile methodologies bring to the table. By embracing agile practices, we empower ourselves to pivot swiftly, respond to changing requirements, and keep our focus on what truly matters – delivering exceptional results. Our agile-driven mindset enables us to keep our projects on track, maintain clear communication, and consistently exceed expectations.
+Tech Force LLC is a Kansas-based technology services and products company founded in 2023 by Jacob Stewart. We operate at the intersection of custom software development, strategic technical advisory, and AI-enabled product innovation.
 
-## Experience that Matters
-With a proven track record of successfully delivered projects and features, we bring a wealth of experience to the table. Our journey has been one of continual growth and learning, marked by the successful execution of diverse projects across various industries. From conceptualization to deployment, we have mastered the art of transforming ideas into tangible, functional solutions that cater to unique business needs.
+Our focus is simple: bring senior-level engineering talent and executive-level technical thinking to companies that can't justify — or don't yet need — a full-time hire.
 
-## Our Promise
-When you partner with TechForce, you're not just hiring developers – you're gaining a dedicated team that is invested in your success. We are driven by a shared passion for innovation and a commitment to excellence. Our promise to you is simple: we will craft software solutions that not only meet your requirements but also exceed your expectations. We are here to bring your vision to life, and we'll do it by adhering to the highest standards of quality, guided by agile methodologies, and informed by our extensive experience.
+---
 
-## Join Us on the Journey
-As you explore our world of software development excellence, we invite you to join us on this exciting journey. Whether you're a startup with a groundbreaking idea or an established business seeking to elevate your digital presence, TechForce is your partner of choice. Together, let's create software solutions that inspire, innovate, and endure.
+## About Jacob Stewart
+
+Jacob Stewart is a senior software engineer and technical leader with over 10 years of hands-on experience building production systems and leading engineering organizations.
+
+### Founding Engineer at Sunnybrook
+
+Jacob's most defining work is as a founding engineer at **Sunnybrook**, a bootstrapped Transportation Management System (TMS) startup. From day one, Jacob helped architect and build the core platform — and over the next two years, Sunnybrook grew from zero to **50+ enterprise customers**.
+
+His role at Sunnybrook covered the full spectrum of what a technical co-founder does:
+
+- **Engineering** — Individual contributor work on core platform architecture and features
+- **Technical Leadership** — Directing engineering priorities, code quality, and system design
+- **Hiring & Team Building** — Recruiting and onboarding engineering talent
+- **DevOps & Infrastructure** — Owning the deployment pipeline and production systems
+- **Client-Facing Roles** — Requirements gathering, support, and technical onboarding
+- **Product** — Shaping the roadmap alongside business stakeholders
+
+That experience — building a SaaS company from scratch to meaningful scale, across every function — is what makes Jacob's Fractional CTO offering credible. He hasn't just consulted on this. He's done the job.
+
+### Earlier Experience
+
+Before Sunnybrook, Jacob worked for **development agencies** as a developer and client-facing lead. He managed relationships, translated business requirements into technical specs, and delivered projects across web, mobile, and enterprise software.
+
+He has also completed numerous **freelance projects** across a wide range of industries and technology stacks.
+
+---
+
+## Our Mission
+
+**Deliver senior-level engineering talent and strategic technology guidance to businesses that cannot afford or justify full-time technical leadership.**
+
+Too many promising companies stall not because of market fit or product — but because they lack experienced engineering judgment at a critical moment. We exist to close that gap.
+
+---
+
+## Our Approach
+
+**Senior-only execution.** Every engagement is led by Jacob. No junior developers, no hand-offs to an overseas team, no bait-and-switch. You get the person you talked to.
+
+**Honest scoping.** We won't take on work that isn't a good fit. If your problem is outside our wheelhouse, we'll tell you.
+
+**Practical over theoretical.** Strategy matters, but code ships products. We bias toward implementation and real-world outcomes over slide decks and frameworks.
+
+---
+
+## Get in Touch
+
+If you're a startup or SMB with a technical challenge — whether it's building something new, rescuing something broken, or figuring out your technical strategy — [reach out](/contact/). We'd be glad to hear about your situation.

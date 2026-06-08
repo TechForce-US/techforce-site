@@ -1,79 +1,105 @@
 ---
-title: Contact
-date: 2021-12-18T03:10:36.000Z
+title: "Contact"
+date: 2024-01-01
 draft: false
 language: en
-description: A test with @tailwindcss/typography & Prose
+description: "Get in touch with Tech Force LLC. We offer Fractional CTO services, custom software development, AI consulting, and more for startups and SMBs."
 ---
 
-<!-- @format -->
+<div class="not-prose max-w-xl mx-auto">
 
-<section class="lg:pb-24">
-  <div class="max-w-screen-md px-4 mx-auto">
-      <p class="mb-8 font-light text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
-      <form id="contact" name="contact" class="space-y-8">
-          <div class="my-4">
-              <label for="email" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-300"><strong>Your Email:</strong></label>
-              <input type="email" name="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-indigo-500 focus:border-indigo-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500 dark:shadow-sm-light" placeholder="name@example.com" required>
-          </div>
-          <div class="my-4">
-              <label for="subject" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-300"><strong>Subject:</strong></label>
-              <input type="text" name="subject" class="block w-full p-3 text-gray-900 border border-gray-300 rounded-lg shadow-sm text-md bg-gray-50 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
-          </div>
-          <div class="my-4 sm:col-span-2">
-              <label for="message" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-400"><strong>Your message:</strong></label>
-              <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500" placeholder="Leave a comment..."></textarea>
-          </div>
-          <div class="h-0 overflow-hidden m-0 absolute">
-              <input type="text" id="first-name" name="first_name" class="h-0">
-          </div>
-          <div class="mt-6 lg:pb-16 flex gap-1.5">
-             <button type="submit" class="px-5 py-3 font-bold text-center text-white bg-indigo-600 rounded-lg text-md sm:w-fit hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800">Send Message</button>
-             <div>
-            <div id="spinner" class="hidden animate-spin rounded-full h-16 w-16 border-blue-500 border-8 border-dotted"></div>
-            </div>
-             <p id="form-submitted" class="hidden">Thank you! Your message has been submitted.</p>
-             <p id="form-error" class="hidden">An error has occurred.</p>
-          </div>
-      </form>
+<p class="mb-8 text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+  Whether you need a Fractional CTO, custom software, help rescuing a broken codebase, or an AI strategy —
+  tell us what you're working on and we'll respond within one business day.
+</p>
+
+<form id="contact" name="contact" class="space-y-6">
+  <div>
+    <label for="name" class="block mb-2 font-semibold text-gray-900 dark:text-gray-200 text-sm">Your Name</label>
+    <input type="text" name="name" id="name"
+      class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+      placeholder="Jane Smith" required>
   </div>
-</section>
+  <div>
+    <label for="email" class="block mb-2 font-semibold text-gray-900 dark:text-gray-200 text-sm">Your Email</label>
+    <input type="email" name="email" id="email"
+      class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+      placeholder="jane@company.com" required>
+  </div>
+  <div>
+    <label for="subject" class="block mb-2 font-semibold text-gray-900 dark:text-gray-200 text-sm">What brings you here?</label>
+    <select name="subject" id="subject"
+      class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+      <option value="">Select a service...</option>
+      <option value="Fractional CTO">Fractional CTO</option>
+      <option value="Application Development">Application Development</option>
+      <option value="AI Agent Orchestration">AI Agent Orchestration &amp; Strategy</option>
+      <option value="Vibe Code Rescue">Vibe Code Rescue</option>
+      <option value="Architecture Consulting">Architecture Consulting</option>
+      <option value="SIS Product">Student Information System (SIS)</option>
+      <option value="Sound Security">Sound Security</option>
+      <option value="Other">Other / Not Sure</option>
+    </select>
+  </div>
+  <div>
+    <label for="message" class="block mb-2 font-semibold text-gray-900 dark:text-gray-200 text-sm">Tell us about your situation</label>
+    <textarea id="message" name="message" rows="6"
+      class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+      placeholder="What are you trying to build or solve? What's broken? What does success look like?"></textarea>
+  </div>
+  <div class="h-0 overflow-hidden m-0 absolute">
+    <input type="text" id="first-name" name="first_name" class="h-0">
+  </div>
+  <div class="flex items-center gap-4">
+    <button type="submit"
+      class="px-8 py-3 font-bold text-white bg-primary-600 rounded-lg hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 transition-colors">
+      Send Message
+    </button>
+    <div id="spinner" class="hidden animate-spin rounded-full h-8 w-8 border-primary-500 border-4 border-dotted"></div>
+  </div>
+  <p id="form-submitted" class="hidden text-green-600 dark:text-green-400 font-semibold">
+    Message sent — we'll be in touch within one business day.
+  </p>
+  <p id="form-error" class="hidden text-red-600 dark:text-red-400">
+    Something went wrong. Please email us directly at jmstewart1127@gmail.com.
+  </p>
+</form>
+
+</div>
 
 <script>
-    const form = document.querySelector('#contact');
-    form.addEventListener('submit', async function (event) {
-        event.preventDefault();
+  const form = document.querySelector('#contact');
+  form.addEventListener('submit', async function(event) {
+    event.preventDefault();
 
-        const submitButton = document.querySelector('button[type="submit"]'); 
-        submitButton.disabled = true;
+    const submitButton = document.querySelector('button[type="submit"]');
+    submitButton.disabled = true;
+    document.querySelector('#form-error').classList.add('hidden');
+    document.querySelector('#spinner').classList.remove('hidden');
 
-        document.querySelector('#form-error').classList.add('hidden');
-        document.querySelector('#spinner').classList.remove('hidden');
+    const formInputs = this.elements;
+    if (formInputs['first_name'].value.length) return;
 
-        const formInputs = this.elements;
-        if (formInputs['first_name'].value.length) {
-            return;
-        }
+    const formData = new FormData();
+    formData.append('name', formInputs['name'].value);
+    formData.append('email', formInputs['email'].value);
+    formData.append('subject', formInputs['subject'].value);
+    formData.append('message', formInputs['message'].value);
 
-        const formData = new FormData();
-        formData.append('email', formInputs['email'].value);
-        formData.append('subject', formInputs['subject'].value);
-        formData.append('message', formInputs['message'].value);
-
-        const url = 'https://formsubmit.co/jmstewart1127@gmail.com'; 
-        const response = await fetch(url, {
-            method: 'POST',
-            body: formData
-        });
-
-        submitButton.disabled = false;
-
-        if (!response.ok) {
-            document.querySelector('#form-error').classList.remove('hidden');
-            return;
-        }
-
-        document.querySelector('#spinner').classList.add('hidden');
-        document.querySelector('#form-submitted').classList.remove('hidden');
+    const response = await fetch('https://formsubmit.co/jmstewart1127@gmail.com', {
+      method: 'POST',
+      body: formData
     });
+
+    submitButton.disabled = false;
+    document.querySelector('#spinner').classList.add('hidden');
+
+    if (!response.ok) {
+      document.querySelector('#form-error').classList.remove('hidden');
+      return;
+    }
+
+    document.querySelector('#form-submitted').classList.remove('hidden');
+    form.reset();
+  });
 </script>
