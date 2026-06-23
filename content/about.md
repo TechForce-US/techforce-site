@@ -3,12 +3,12 @@ title: "About Tech Force LLC"
 date: 2024-01-01
 draft: false
 language: en
-description: "Tech Force LLC is a Kansas-based technology services and products company founded by Jacob Stewart, a senior software engineer with 10 years of experience building and leading software teams."
+description: "Tech Force LLC is a Kansas-based AI agency and technology consulting company founded by Jacob Stewart, a senior software engineer with 10 years of experience building and leading software teams."
 ---
 
 ## Who We Are
 
-Tech Force LLC is a Kansas-based technology services and products company founded in 2023 by Jacob Stewart. We operate at the intersection of custom software development, strategic technical advisory, and AI-enabled product innovation.
+Tech Force LLC is a Kansas-based technology services and products company founded in 2023 by Jacob Stewart. We operate at the intersection of custom software development, artificial intelligence consulting, and AI-enabled product innovation.
 
 Our focus is simple: bring senior-level engineering talent and executive-level technical thinking to companies that can't justify — or don't yet need — a full-time hire.
 

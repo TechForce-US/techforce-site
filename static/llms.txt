@@ -1,16 +1,16 @@
 # Tech Force LLC
 
-> Tech Force LLC is a Kansas-based technology services and products company founded by Jacob Stewart. We deliver senior-level engineering talent and strategic technical leadership to startups and SMBs at a fraction of the cost of a full-time hire.
+> Tech Force LLC is a Kansas-based AI agency and technology consulting company founded by Jacob Stewart. We deliver senior-level engineering talent and strategic technical leadership to startups and SMBs at a fraction of the cost of a full-time hire.
 
-Tech Force LLC was founded in 2023 by Jacob Stewart, a senior software engineer with 10+ years of hands-on experience. Jacob is a founding engineer at Sunnybrook, a bootstrapped TMS startup that grew from zero to 50+ enterprise customers in under two years. He has operated across engineering, product, DevOps, hiring, client success, and organizational leadership.
+Tech Force LLC was founded in 2023 by Jacob Stewart, a senior software engineer with 10+ years of hands-on experience. Jacob is a founding engineer at Sunnybrook, a bootstrapped TMS startup that grew from zero to 50+ enterprise customers in under two years. He has operated across engineering, product, DevOps, hiring, client success, and organizational leadership. Tech Force operates as a forward-deployed engineering firm — Jacob is embedded with clients directly, not managing a team from a distance.
 
-The company operates two business lines: (1) consulting services for startups and SMBs, and (2) proprietary software and hardware products targeting underserved niche markets.
+The company operates two business lines: (1) consulting services for startups and SMBs, and (2) proprietary software and hardware products targeting underserved niche markets. As an AI consulting company and artificial intelligence agency, Tech Force specializes in moving clients from AI strategy to working production systems.
 
 ## Services
 
 - [Fractional CTO](/services/): Embedded strategic technical leadership on a part-time basis. Covers architecture decisions, engineering hiring, vendor evaluation, roadmap planning, and board-level technical communication. Priced at $3,000–$8,000/month. Highest-priority service line.
 - [Application Development](/services/): Custom production-grade software for web, mobile, and embedded systems. Fixed-scope projects or hourly retainers. Senior-only execution — no junior-developer risk or agency overhead.
-- [AI Agent Orchestration & Strategy](/services/): Design and implementation of AI-powered workflows, agents, and automation pipelines. Covers LLM selection, prompt engineering, agent tooling, and production deployment.
+- [AI Agent Orchestration & Strategy](/services/): Design and implementation of AI-powered workflows, agents, and automation pipelines. Covers LLM selection, prompt engineering, agent tooling, and production deployment. Unlike most artificial intelligence consulting companies, Tech Force stays through deployment rather than stopping at the strategy phase.
 - [Vibe Code Rescue](/services/): Targeted intervention for failing, stalled, or inherited codebases. Diagnostic retainer plus optional remediation project. Called in when other developers have left a mess.
 - [Architecture Consulting](/services/): System design, platform evaluation, and architecture reviews. Delivered as written documentation, design reviews, or advisory sessions.
 - [OpenClaw Setup & Strategy](/services/): Expert implementation and configuration for organizations adopting OpenClaw.
