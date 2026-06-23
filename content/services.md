@@ -3,14 +3,14 @@ title: "Services"
 date: 2024-01-01
 draft: false
 language: en
-description: "Tech Force LLC offers Fractional CTO services, custom application development, AI agent orchestration, architecture consulting, Vibe Code Rescue, and OpenClaw setup and strategy."
+description: "Tech Force LLC is an AI consulting company offering Fractional CTO services, custom application development, AI agent orchestration and strategy, architecture consulting, Vibe Code Rescue, and OpenClaw setup and strategy."
 ---
 
 <div class="not-prose">
 
 <p class="text-lg text-gray-600 dark:text-gray-300 mb-12 max-w-2xl">
   Every engagement is led by Jacob Stewart — a senior engineer with 10+ years of production experience.
-  No hand-offs, no junior developers, no agency overhead.
+  Think forward-deployed engineers, not an offshore agency. No hand-offs, no junior developers, no overhead.
 </p>
 
 <!-- Fractional CTO -->
@@ -101,7 +101,7 @@ description: "Tech Force LLC offers Fractional CTO services, custom application 
   <p class="text-gray-600 dark:text-gray-300 mb-5 leading-relaxed">
     Design and implementation of AI-powered workflows, agents, and automation pipelines. We cover LLM selection,
     prompt engineering, agent tooling, and production deployment — with a focus on practical implementation
-    rather than pure advisory.
+    rather than pure advisory. Most artificial intelligence consulting companies stop at the strategy deck — we stay through deployment.
   </p>
   <p class="text-gray-600 dark:text-gray-300 mb-5 leading-relaxed">
     Whether you want to automate repetitive internal operations, build AI-native product features, or understand
